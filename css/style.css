@@ -1,0 +1,261 @@
+body {
+    background-color: #03060f;
+}
+
+.wrapper {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+
+}
+
+.header-line {
+    display: flex;
+    align-items: center;
+}
+
+.car-list {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 320px;
+}
+
+.car-list li,
+a {
+    padding-left: 45px;
+    list-style: none;
+    font-size: 18px;
+    letter-spacing: 2px;
+    line-height: 95px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Nunito Sans";
+    text-decoration: none;
+    transition: all 0.5s ease;
+}
+
+.car-list a:hover{
+    color: lightslategray;
+}
+
+#logo {
+    padding-left: 0;
+    font-size: 0;
+    line-height: 0;
+}
+
+h2 {
+    font-size: 30px;
+    letter-spacing: 3px;
+    line-height: 95px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Nunito Sans";
+}
+
+#burger {
+    margin-left: 26%;
+    padding-left: 0;
+    font-size: 0;
+    line-height: 0;
+}
+
+.burger p {
+    font-size: 40px;
+    font-weight: bolder;
+    color: #ffffff;
+    margin-left: 510px;
+}
+
+.burger-wrap {
+    position: relative;
+    width: 55px;
+    height: 55px;
+    border-radius: 9px;
+    background-color: #03060f;
+    box-shadow: -5px -5px 40px 7px rgba(18, 42, 101, 0.95);
+    transition: all 0.5s;
+
+}
+
+.burger-wrap:hover {
+    box-shadow: -1px -1px 60px 20px rgba(17, 42, 101, 0.9);
+}
+
+.burger-wrap::before {
+    content: "";
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    z-index: -1;
+    width: 59px;
+    height: 59px;
+    background: linear-gradient(155deg, #112a65 40%, transparent);
+    border-radius: 9px;
+}
+
+.burger-line {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.burger-line,
+.burger-line::before,
+.burger-line:after {
+    position: absolute;
+    width: 40px;
+    height: 3px;
+    background-color: #fff;
+}
+
+.burger-line::before,
+.burger-line:after {
+    content: "";
+    left: 0;
+}
+
+.burger-line::before {
+    top: -10px;
+}
+
+.burger-line:after {
+    top: 10px;
+}
+
+h1 {
+    margin-left: 52px;
+    text-transform: uppercase;
+    font-size: 30px;
+    letter-spacing: 3px;
+    line-height: 95px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Nunito Sans";
+}
+
+.main {
+    margin-top: 182px;
+}
+
+.main p {
+    margin-left: 52px;
+    font-size: 18px;
+    letter-spacing: 2px;
+    line-height: 27px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Nunito Sans";
+}
+
+.text {
+    width: 40%;
+}
+
+#button {
+    padding-left: 0;
+    font-size: 0;
+    line-height: 0;
+}
+
+.button {
+    width: 180px;
+    height: 48px;
+    margin-left: 52px;
+    margin-top: 50px;
+    background-color: #03060f;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: -2px -2px 47px 5px rgba(17, 42, 101, 0.9);
+    transition: all 0.5s;
+}
+
+.button:hover {
+    box-shadow: -1px -1px 60px 20px rgba(17, 42, 101, 0.9);
+}
+
+.button p {
+    text-transform: uppercase;
+    margin: 0 auto;
+    padding-top: 11px;
+}
+
+.button::before {
+    margin-left: -91px;
+    margin-top: -1px;
+    content: "";
+    position: absolute;
+    width: 184px;
+    height: 51px;
+    z-index: -1;
+    background: linear-gradient(155deg, #112a65 40%, transparent);
+    border-radius: 15px;
+
+}
+
+h2 {
+    font-size: 30px;
+    letter-spacing: 3px;
+    line-height: 95px;
+    color: #ffffff;
+    font-weight: 600;
+    font-family: "Nunito Sans";
+}
+
+.model {
+    display: flex;
+    width: 22%;
+    margin-left: 900px;
+    margin-top: -322px;
+}
+
+.img {
+    padding-top: 10px;
+    margin-left: 25.3%;
+    margin-top: -10%;
+}
+
+.characteristics {
+    display: flex;
+    font-size: 30px;
+    letter-spacing: 3px;
+    line-height: 27px;
+    color: #ffffff;
+    font-weight: 600;
+    font-family: "Nunito Sans";
+    margin-bottom: 32px;
+}
+
+#one {
+    font-size: 30px;
+    letter-spacing: 3px;
+    line-height: 27px;
+    color: #ffffff;
+    font-weight: 600;
+    font-family: "Nunito Sans";
+}
+
+#two {
+    margin-top: -15px;
+}
+
+.range {
+    border-right: 1px solid white;
+    width: 178px;
+}
+
+.speed {
+    margin-left: -30px;
+    border-right: 1px solid white;
+    width: 160px;
+}
+
+.topspeed {
+    margin-left: -30px;
+    border-right: 1px solid white;
+    width: 200px;
+}
+
+.power {
+    margin-left: -30px;
+}
