@@ -260,11 +260,6 @@ h2 {
     margin-left: -30px;
 }
 
-.flex_block {
-    display: flex;
-    height: 140px;
-}
-
 .slider {
     display: flex;
     margin-left: 420px;
@@ -276,4 +271,9 @@ h2 {
 
 .slider a>img:hover {
     transform: scale(2);
+}
+
+.flex_block {
+    display: flex;
+    height: 140px;
 }
